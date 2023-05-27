@@ -1,0 +1,168 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .banner-text {
+    max-width: 600px;
+  }
+  
+  .banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-text a {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #about img {
+    max-width: 400px;
+    margin-left: 50px;
+  }
+  
+  /* Menu section styles */
+  #menu {
+    padding: 50px;
+  }
+  
+  #menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Find Us section styles */
+  #find-us {
+    padding: 50px;
+    display: flex;
+  }
+  
+  #find-us h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .find-us-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .map {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
